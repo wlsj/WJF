@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:id="@+id/sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#F14E6D"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数字商店"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginLeft="170dp"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/search"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_below="@id/sousuo"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:id="@+id/luoboBtn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="70dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_luobo"
+        />
+    
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保卫萝卜"
+        android:textColor="#343434"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最精彩的互动游戏"
+        android:layout_marginTop="10dp"
+        android:textColor="#b3b3b3"
+        />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/qqBtn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_qq"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ"
+                android:textColor="#343434"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最强大的社交软件"
+                android:layout_marginTop="10dp"
+                android:textColor="#b3b3b3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/dongtingBtn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_dongting"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天天动听"
+                android:textColor="#343434"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最好听的在线音乐"
+                android:layout_marginTop="10dp"
+                android:textColor="#b3b3b3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/xinlangBtn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_souhu"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新浪微博"
+                android:textColor="#343434"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最完美的交谈方式"
+                android:layout_marginTop="10dp"
+                android:textColor="#b3b3b3"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

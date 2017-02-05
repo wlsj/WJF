@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="wx.eigle.yf.com.mafengwo_app">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Activity.dengluAvtvity"></activity>
+        <activity android:name=".Activity.Zhuce_ShouJi_Activity"></activity>
+        <activity android:name=".Activity.SheZhi_HuiYuanActivity"></activity>
+        <activity android:name=".Activity.ZhuCe_Successful_activity"></activity>
+        <activity android:name=".Activity.ZhuCe_Successful_1_activity"></activity>
+        <activity android:name=".Activity.GuestureLockActivity"></activity>
+        <activity android:name=".Activity.ResetPwdActivity"></activity>
+        <activity android:name=".Fragment.Fragment5_1"></activity>
+        <activity android:name=".Fragment.Fragment5_2"></activity>
+        <activity android:name=".Fragment.Fragment5_3"></activity>
+        <activity android:name=".Fragment.Fragment5_4"></activity>
+
+
+
+
+
+        <activity android:name=".Activity.Fragment4_small1_1"></activity>
+
+
+
+
+    </application>
+
+</manifest>

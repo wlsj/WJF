@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="#ffff"
+                android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:background="#f9f9f9"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/haoyouzhuan"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView11"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/shangzhuanzhang"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/tiao1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/header"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/shangpin1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tiao1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/yingyong_imag1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="李丽丽"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000356"
+                android:textColor="#dddddd"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/tiao2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/shangpin1"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/shangpin2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tiao2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/yingyong_imag1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="李丽丽"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000356"
+                android:textColor="#dddddd"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/tiao3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/shangpin2"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/shangpin3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tiao3"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/yingyong_imag1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="李丽丽"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000356"
+                android:textColor="#dddddd"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/tiao4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/shangpin3"
+        android:background="@drawable/game_default_banner"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/shangpin4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tiao4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/yingyong_imag1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="李丽丽"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000356"
+                android:textColor="#dddddd"
+                android:id="@+id/textView5"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

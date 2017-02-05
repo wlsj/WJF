@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGonglue">#ffa311</color>
+    <color name="colorJiudian">#42a8f2</color>
+    <color name="colorWanle">#fd5b5a</color>
+    <color name="colorFeiji">#97ce2d</color>
+    <color name="colorYouji">#feca2d</color>
+    <color name="colorLvxing">#d174f0</color>
+    <color name="colorWendaren">#30d2bf</color>
+    <color name="colorWengweng">#f45d7a</color>
+
+    <color name="colorText">#4d4d50</color>
+</resources>

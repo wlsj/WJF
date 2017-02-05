@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shouye">
+
+
+    <LinearLayout
+        android:id="@+id/null_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_tb"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/null_1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:src="@drawable/ic_tb"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/denglu"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/Layout_tb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_dltx"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="登陆账号："
+                    android:textColor="#5c5c5c"
+                    android:textSize="14sp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="#000000"
+                    android:textColorHint="#948f8f"
+                    android:hint="小毛驴/手机/邮箱"
+                    android:textSize="14sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/game_default_banner"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/ic_wdmm"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="密码："
+                    android:textColor="#5c5c5c"
+                    android:textSize="14sp"
+                    android:id="@+id/textView2"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/zhuce_deluBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/denglu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/zcBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dl"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textColor="#ffffffff"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/dlBtn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/zc"
+            android:gravity="center">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="立即登录"
+                android:textColor="#ffffffff"
+                android:textSize="18dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/zhuce_deluBtn"
+        android:gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:textSize="12dp"
+            android:textColor="#0279fe"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
